@@ -2,6 +2,7 @@
 //Faradilla Okta Machdaliani - FE4858260
 //Pseudocode Hospital Admission (Proses pendaftaran data pasien rawat inap) pada Rumah Sakit Anak
 
+START
 READ AND WRITE "nama_pasien" with string
 READ AND WRITE "umur_pasien" with integer
 READ AND WRITE "jeniskelamin_pasien" with string
@@ -27,7 +28,7 @@ WHILE pendaftaran_berhasil == FALSE DO
                 PRINT "Pendaftaran Berhasil"
                 pendaftaran_berhasil = TRUE
             END IF
-            
+
 END WHILE
 END
 

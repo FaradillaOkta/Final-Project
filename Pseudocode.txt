@@ -1,0 +1,32 @@
+//Final Project Software Engineering
+//Faradilla Okta Machdaliani - FE4858260
+//Pseudocode Hospital Admission (Proses pendaftaran data pasien rawat inap) pada Rumah Sakit Anak
+
+READ AND WRITE "nama_pasien" with string
+READ AND WRITE "umur_pasien" with integer
+READ AND WRITE "jeniskelamin_pasien" with string
+READ AND WRITE "keluhan_pasien" with string
+READ AND WRITE "pendaftaran_berhasil" with boolean
+
+pendaftaran_berhsil = FALSE
+
+WHILE pendaftaran_berhasil == FALSE DO
+    PRINT "Silahkan lakukan pendaftaran rawat inap dengan melengkapi data pasien berikut:"
+        PRINT "nama: ......"
+        Input nama_pasien
+        PRINT "umur: ......"
+        Input umur_pasien
+        PRINT "jenis kelamin: ......"
+        Input jeniskelamin_pasien
+        PRINT "keluhan: ......"
+        Input keluhan_pasien
+
+            IF umur_pasien > 12 THEN
+                PRINT "Mohon maaf, pendaftaran gagal. Usia melebihi ketentuan. Pendaftaran hanya diperuntukan bagi pasien anak"
+            ELSE
+                PRINT "Pendaftaran Berhasil"
+                pendaftaran_berhasil = TRUE
+            END IF
+END WHILE
+END
+
